@@ -1,0 +1,111 @@
+/* Global Settings */
+
+body, ul, ol, a {
+    margin: 0;
+    padding: 0;
+}
+
+/* Application Colour Codes */
+
+/* Application Fonts */
+
+@font-face {
+    font-family: 'FilsonProBlack';
+    src: url('fonts/FilsonProBlack-Black.otf');
+}
+
+@font-face {
+    font-family: 'FlisonProBook';
+    src: url('fonts/FilsonProBook-Book.otf');
+}
+
+@font-face {
+    font-family: 'FilsonProRegular';
+    src: url('fonts/FilsonProRegular-Regular.otf');
+}
+
+@font-face {
+    font-family: 'GothamBold';
+    src: url('fonts/GothamBold.otf');
+}
+
+.font-FilsonProBlack {
+    font-family: 'FilsonProBlack';
+}
+
+.font-FlisonProBook {
+    font-family: 'FlisonProBook';
+}
+
+.font-FilsonProRegular {
+    font-family: 'FilsonProRegular';
+}
+
+.font-GothamBold {
+    font-family: 'GothamBold';
+}
+
+/* Ends */
+
+body {
+    font-family: 'FilsonProRegular';
+    font-size: 14px;
+    background-color: #EdEDEE;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+/* Application Colour Codes */
+
+.first {
+    color: #241346;
+}
+
+.second {
+    color: #D4B92E;
+}
+
+.third {
+    color: #73E7D2;
+}
+
+.fourth {
+    color: #050C5D;
+}
+
+.fifth {
+    color: #EdEDEE;
+}
+
+.sixth {
+    color: #265AC7;
+}
+
+.seventh {
+    color: #DD2946;
+}
+
+.eight {
+    color: #681087;
+}
+
+.ninth {
+    color: #58B4FE;
+}
+
+.tenth {
+    color: #F46DE4;
+}
+
+.elventh {
+    color: #F86500;
+}
+
+/* Ends */

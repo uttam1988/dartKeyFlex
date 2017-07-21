@@ -1,0 +1,130 @@
+header {
+    padding: 2rem 1rem;
+    background-color: #241346;
+}
+
+.logo {
+    background-image: url("../images/dartkey-logo.png");
+    background-repeat: no-repeat;
+    background-size: 70% 100%;
+}
+
+nav ul {
+    display: flex;
+    color: #ffffff;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav.upper-nav {
+    margin-bottom: 0.8rem;
+}
+
+nav.upper-nav ul {
+    margin-right: .5rem;
+}
+
+nav.upper-nav li {
+    padding: 0 0.3rem;
+    font-size: 10px;
+}
+
+nav.main-nav li {
+    padding: 0 0.8rem;
+}
+
+.login-btn {
+    background-color: #D4B92E;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 50px;
+    padding: 0.5rem 1.3rem;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.banner-block {
+    position: relative;
+}
+
+/*
+.banner {
+    height: 450px;
+    background-color: #EdEDEE;
+    border-bottom: 3px solid #73E7D2;
+}
+*/
+
+.banner {
+    height: 600px;
+    background-image: url(../images/banner-image.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    border-bottom: 3px solid #73E7D2;
+    max-height: 100%;
+    background-origin: content-box;
+    background-position: center center;
+    background-attachment: initial;
+}
+
+
+.dartkey-info-banner {
+    width: 350px;
+    height: 250px;
+    background-image: url(../images/dartkey-card.png);
+    color: #fff;
+    position: absolute;
+    bottom: -5rem;
+    left: 10rem;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    border: 1px solid #ccc;
+    border-radius: 45px;
+}
+
+.content {
+    min-height: 650px;
+}
+
+.about-text {
+    padding: 10rem 0 5rem 0;
+}
+
+.about-text p {
+    font-size: 16px;
+}
+
+.heading {
+    font-size: 60px;
+    font-family: FlisonProBook;
+}
+
+.heading b {
+    font-family: FilsonProBlack;
+}
+
+footer {
+    background-color: #FFFFFF;
+    color: #000;
+}
+
+footer ul {
+
+}
+
+footer ul li {
+    list-style: none;
+}
+
+footer ul li a{
+    color: #000000;
+    text-decoration: none;
+}
+
+footer ul.social-icons li {
+    display: inline-flex;
+}
